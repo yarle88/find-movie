@@ -1,0 +1,72 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie{
+  display: flex;
+  justify-content: space-between;
+  gap:2px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  height: 300px;
+  width: 500px;
+}
+.movie:hover{
+  background-color: lightgray;
+}
+
+.group{
+  display: flex;
+  gap: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.error{
+  color: red;
+  width: 200px;
+  margin: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;  
+  width: 510px;  
+  height: 100px;
+}
+
+input{
+  width: 200px;
+  height: 40px;
+}
+
+button{
+  height: 40px;
+  width: 100px;
+}
